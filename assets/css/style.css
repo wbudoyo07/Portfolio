@@ -69,20 +69,39 @@ header a:hover {
 /* showcase */
 #showcase {
     min-height: 400px;
-    background: url("../images/centercity.jpg") no-repeat 0 -400px;
+    background: url("../images/showcase.jpg") no-repeat 0;
     text-align :center;
     color: #ffffff;
+    filter: blur(4px);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    
 }
 
 #showcase h1 {
-    margin-top: 100px;
+    margin-top: 200px;
     font-size: 55px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-#showcase p {
-    font-size: 20px;
+/* welcome-text animation */
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.welcome-text { 
+	font: bold 300% Consolas, Monaco, monospace;
+	border-right: .1em solid black;
+	width: 16.5em; 
+	width: 21ch;
+	margin: 2em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 7s steps(21, end),
+	           blink-caret .5s step-end infinite alternate;
 }
+
 /* about me */
 #about-me h1 {
     text-align: center;
@@ -140,8 +159,25 @@ footer {
     padding:20px;
     margin-top:20px;
     color:#ffffff;
+    font-weight: bold;
     background-color: #29e0237c;
 }
+
+footer img {
+    width:5%; 
+    float:left; 
+    margin-left:50px;
+}
+
+footer p {
+    margin-left:300px;
+}
+footer a {
+    text-decoration: none;
+    color: #0661f37c;
+}
+
+
 /* Media Queries  */
 @media(max-width: 768px) {
     header #branding,
