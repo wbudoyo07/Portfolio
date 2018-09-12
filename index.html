@@ -4,56 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>William</title>
 </head>
 <body>
     <header>
-        <div class = "container">
-            <a href="#" id="logo">William Budoyo</a>
-            <nav class="nav-bar"> 
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">William</span> Budoyo</h1>
+            </div>
+            <nav>
                 <ul>
-                       <li><a href="#">About</a></li> 
-                        <li><a href="#">Project</a> </li> 
-                        <li><a href="#">Skills</a> </li> 
-                        <li><a href="#">Contact</a> </li> 
-                        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                                <i class="fa fa-bars"></i>
-                             </a> 
-                        </li> 
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div id = "main-container">
-        <section id="intro-layout">
-            <!-- <img src="assets/images/centercity.jpg" alt="centerCity"> -->
-        </section>
-    <section id="about-me-container">
-        <h1>About Me</h1>
-        <img src="assets/images/proPic.jpeg" alt="profile-picture">
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore placeat ipsa aliquam vitae modi ex error inventore minus possimus ipsam! Quae vitae quisquam deserunt quidem non suscipit temporibus repudiandae quam?</p>
-    </section>
-    <section id="skills">
-        <h1>Skills</h1>
-        <div class="image-Skils">
-            <img src="assets/images/html5.png" alt="html5">
-        </div>
-    </section>
-    <section id="projects">
-        <h1>My work</h1>
-        <div class="img-Projects">
-            <img src="assets/images/html5.png" alt="html5">
-        </div>
-    </section>
-    </div>
-    
-    <footer>
+
+    <section id = "showcase">
         <div class="container">
-            &copy; Copyright 2028 William Budoyo
+            <h1>Affordable Professional Web Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti est unde doloremque quidem amet voluptates? Iste debitis ea nam architecto aliquam dolorum quas explicabo, voluptas consequuntur laborum aliquid repellat!</p>
         </div>
+    </section>
+
+    <section id ="newsletter">
+        <div class="container">
+            <h1>Subscribe to Our NewsLetter</h1>
+            <form action="">
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="./assets/images/logo_html.png" alt="html5">
+                <h3>HTML5 Markup</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi in porro quae impedit at reprehenderit sed id labore repellendus voluptas ratione nostrum totam aspernatur, magni optio aliquam iusto a quo?</p>
+            </div>
+            <div class="box">
+                    <img src="./assets/images/logo_css.png" alt="css3">
+                    <h3>CSS3 Styling</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi in porro quae impedit at reprehenderit sed id labore repellendus voluptas ratione nostrum totam aspernatur, magni optio aliquam iusto a quo?</p>
+            </div>
+            <div class="box">
+                    <img src="./assets/images/logo_html.png" alt="html5">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi in porro quae impedit at reprehenderit sed id labore repellendus voluptas ratione nostrum totam aspernatur, magni optio aliquam iusto a quo?</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>William Budoyo, Copyrigh &copy; 2018 </p>
     </footer>
+
 </body>
 </html>
