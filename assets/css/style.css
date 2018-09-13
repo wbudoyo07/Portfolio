@@ -113,9 +113,11 @@ header a:hover {
     width:20%;
     border-radius: 55px 20px 55px;
 }
-#about-me p {
+.about-me-paragraph {
     text-align: center;
-
+    width:50%;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 /* boxes of technologies  */
